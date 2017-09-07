@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		720DD9DF79FBE9DE7D932B06 /* libPods-IOS-LY.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A05F917EADD3490DE288D4 /* libPods-IOS-LY.a */; };
+		B609896B1F612C76003CAD77 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B609896A1F612C76003CAD77 /* HomeViewController.m */; };
+		B60989711F612CC0003CAD77 /* TravelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60989701F612CC0003CAD77 /* TravelViewController.m */; };
+		B60989741F612CE8003CAD77 /* RentalCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60989731F612CE8003CAD77 /* RentalCarViewController.m */; };
+		B60989771F612CFD003CAD77 /* OwnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60989761F612CFD003CAD77 /* OwnViewController.m */; };
+		B6B68FBA1F6127DA00C22923 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B68FB91F6127DA00C22923 /* main.m */; };
+		B6B68FBD1F6127DA00C22923 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B68FBC1F6127DA00C22923 /* AppDelegate.m */; };
+		B6B68FC01F6127DA00C22923 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B68FBF1F6127DA00C22923 /* ViewController.m */; };
+		B6B68FC31F6127DA00C22923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B68FC11F6127DA00C22923 /* Main.storyboard */; };
+		B6B68FC51F6127DA00C22923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B68FC41F6127DA00C22923 /* Assets.xcassets */; };
+		B6B68FC81F6127DA00C22923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B68FC61F6127DA00C22923 /* LaunchScreen.storyboard */; };
+		B6B68FD31F6127DA00C22923 /* IOS_LYTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B68FD21F6127DA00C22923 /* IOS_LYTests.m */; };
+		B6B68FDE1F6127DA00C22923 /* IOS_LYUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B68FDD1F6127DA00C22923 /* IOS_LYUITests.m */; };
+		B6B68FF81F61286300C22923 /* BackBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B68FED1F61286300C22923 /* BackBtn.m */; };
+		B6B68FF91F61286300C22923 /* LYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B68FEF1F61286300C22923 /* LYNavigationController.m */; };
+		B6B68FFA1F61286300C22923 /* LYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B68FF11F61286300C22923 /* LYTabBarController.m */; };
+		B6B68FFB1F61286300C22923 /* MainManage.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B68FF31F61286300C22923 /* MainManage.m */; };
+		B6B68FFC1F61286300C22923 /* MyTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B68FF51F61286300C22923 /* MyTabBar.m */; };
+		B6B68FFD1F61286300C22923 /* TabBarTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B68FF71F61286300C22923 /* TabBarTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6B68FCF1F6127DA00C22923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6B68FAD1F6127DA00C22923 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6B68FB41F6127DA00C22923;
+			remoteInfo = "IOS-LY";
+		};
+		B6B68FDA1F6127DA00C22923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6B68FAD1F6127DA00C22923 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6B68FB41F6127DA00C22923;
+			remoteInfo = "IOS-LY";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F682BBC4FA45302BD2472D5 /* Pods-IOS-LY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS-LY.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOS-LY/Pods-IOS-LY.debug.xcconfig"; sourceTree = "<group>"; };
+		4F500F9A6D3FB034D470B583 /* Pods-IOS-LY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS-LY.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOS-LY/Pods-IOS-LY.release.xcconfig"; sourceTree = "<group>"; };
+		50A05F917EADD3490DE288D4 /* libPods-IOS-LY.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IOS-LY.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60989691F612C76003CAD77 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		B609896A1F612C76003CAD77 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		B609896F1F612CC0003CAD77 /* TravelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelViewController.h; sourceTree = "<group>"; };
+		B60989701F612CC0003CAD77 /* TravelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelViewController.m; sourceTree = "<group>"; };
+		B60989721F612CE8003CAD77 /* RentalCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RentalCarViewController.h; sourceTree = "<group>"; };
+		B60989731F612CE8003CAD77 /* RentalCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RentalCarViewController.m; sourceTree = "<group>"; };
+		B60989751F612CFD003CAD77 /* OwnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OwnViewController.h; sourceTree = "<group>"; };
+		B60989761F612CFD003CAD77 /* OwnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OwnViewController.m; sourceTree = "<group>"; };
+		B60989781F612F94003CAD77 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B6B68FB51F6127DA00C22923 /* IOS-LY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS-LY.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B68FB91F6127DA00C22923 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6B68FBB1F6127DA00C22923 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6B68FBC1F6127DA00C22923 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6B68FBE1F6127DA00C22923 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6B68FBF1F6127DA00C22923 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6B68FC21F6127DA00C22923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6B68FC41F6127DA00C22923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6B68FC71F6127DA00C22923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6B68FC91F6127DA00C22923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6B68FCE1F6127DA00C22923 /* IOS-LYTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS-LYTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B68FD21F6127DA00C22923 /* IOS_LYTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOS_LYTests.m; sourceTree = "<group>"; };
+		B6B68FD41F6127DA00C22923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6B68FD91F6127DA00C22923 /* IOS-LYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS-LYUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B68FDD1F6127DA00C22923 /* IOS_LYUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOS_LYUITests.m; sourceTree = "<group>"; };
+		B6B68FDF1F6127DA00C22923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6B68FEC1F61286300C22923 /* BackBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackBtn.h; sourceTree = "<group>"; };
+		B6B68FED1F61286300C22923 /* BackBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackBtn.m; sourceTree = "<group>"; };
+		B6B68FEE1F61286300C22923 /* LYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYNavigationController.h; sourceTree = "<group>"; };
+		B6B68FEF1F61286300C22923 /* LYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYNavigationController.m; sourceTree = "<group>"; };
+		B6B68FF01F61286300C22923 /* LYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTabBarController.h; sourceTree = "<group>"; };
+		B6B68FF11F61286300C22923 /* LYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTabBarController.m; sourceTree = "<group>"; };
+		B6B68FF21F61286300C22923 /* MainManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainManage.h; sourceTree = "<group>"; };
+		B6B68FF31F61286300C22923 /* MainManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainManage.m; sourceTree = "<group>"; };
+		B6B68FF41F61286300C22923 /* MyTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBar.h; sourceTree = "<group>"; };
+		B6B68FF51F61286300C22923 /* MyTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBar.m; sourceTree = "<group>"; };
+		B6B68FF61F61286300C22923 /* TabBarTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarTool.h; sourceTree = "<group>"; };
+		B6B68FF71F61286300C22923 /* TabBarTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6B68FB21F6127DA00C22923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				720DD9DF79FBE9DE7D932B06 /* libPods-IOS-LY.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B68FCB1F6127DA00C22923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B68FD61F6127DA00C22923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B4854480F3BF284077D4820 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F682BBC4FA45302BD2472D5 /* Pods-IOS-LY.debug.xcconfig */,
+				4F500F9A6D3FB034D470B583 /* Pods-IOS-LY.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3EE9EA1F697269B46532D518 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50A05F917EADD3490DE288D4 /* libPods-IOS-LY.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6B68FAC1F6127DA00C22923 = {
+			isa = PBXGroup;
+			children = (
+				B60989781F612F94003CAD77 /* PrefixHeader.pch */,
+				B6B68FB71F6127DA00C22923 /* IOS-LY */,
+				B6B68FD11F6127DA00C22923 /* IOS-LYTests */,
+				B6B68FDC1F6127DA00C22923 /* IOS-LYUITests */,
+				B6B68FB61F6127DA00C22923 /* Products */,
+				1B4854480F3BF284077D4820 /* Pods */,
+				3EE9EA1F697269B46532D518 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B6B68FB61F6127DA00C22923 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6B68FB51F6127DA00C22923 /* IOS-LY.app */,
+				B6B68FCE1F6127DA00C22923 /* IOS-LYTests.xctest */,
+				B6B68FD91F6127DA00C22923 /* IOS-LYUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6B68FB71F6127DA00C22923 /* IOS-LY */ = {
+			isa = PBXGroup;
+			children = (
+				B6B6902C1F612B0200C22923 /* 出游 */,
+				B6B6902D1F612B0200C22923 /* 首页 */,
+				B6B6902E1F612B0200C22923 /* 我的 */,
+				B6B6902F1F612B0200C22923 /* 租车 */,
+				B6B68FEB1F61286300C22923 /* Navigation and TabBar */,
+				B6B68FBB1F6127DA00C22923 /* AppDelegate.h */,
+				B6B68FBC1F6127DA00C22923 /* AppDelegate.m */,
+				B6B68FBE1F6127DA00C22923 /* ViewController.h */,
+				B6B68FBF1F6127DA00C22923 /* ViewController.m */,
+				B6B68FC11F6127DA00C22923 /* Main.storyboard */,
+				B6B68FC41F6127DA00C22923 /* Assets.xcassets */,
+				B6B68FC61F6127DA00C22923 /* LaunchScreen.storyboard */,
+				B6B68FC91F6127DA00C22923 /* Info.plist */,
+				B6B68FB81F6127DA00C22923 /* Supporting Files */,
+			);
+			path = "IOS-LY";
+			sourceTree = "<group>";
+		};
+		B6B68FB81F6127DA00C22923 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6B68FB91F6127DA00C22923 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6B68FD11F6127DA00C22923 /* IOS-LYTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6B68FD21F6127DA00C22923 /* IOS_LYTests.m */,
+				B6B68FD41F6127DA00C22923 /* Info.plist */,
+			);
+			path = "IOS-LYTests";
+			sourceTree = "<group>";
+		};
+		B6B68FDC1F6127DA00C22923 /* IOS-LYUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6B68FDD1F6127DA00C22923 /* IOS_LYUITests.m */,
+				B6B68FDF1F6127DA00C22923 /* Info.plist */,
+			);
+			path = "IOS-LYUITests";
+			sourceTree = "<group>";
+		};
+		B6B68FEB1F61286300C22923 /* Navigation and TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				B6B68FEC1F61286300C22923 /* BackBtn.h */,
+				B6B68FED1F61286300C22923 /* BackBtn.m */,
+				B6B68FEE1F61286300C22923 /* LYNavigationController.h */,
+				B6B68FEF1F61286300C22923 /* LYNavigationController.m */,
+				B6B68FF01F61286300C22923 /* LYTabBarController.h */,
+				B6B68FF11F61286300C22923 /* LYTabBarController.m */,
+				B6B68FF21F61286300C22923 /* MainManage.h */,
+				B6B68FF31F61286300C22923 /* MainManage.m */,
+				B6B68FF41F61286300C22923 /* MyTabBar.h */,
+				B6B68FF51F61286300C22923 /* MyTabBar.m */,
+				B6B68FF61F61286300C22923 /* TabBarTool.h */,
+				B6B68FF71F61286300C22923 /* TabBarTool.m */,
+			);
+			path = "Navigation and TabBar";
+			sourceTree = "<group>";
+		};
+		B6B6902C1F612B0200C22923 /* 出游 */ = {
+			isa = PBXGroup;
+			children = (
+				B609896F1F612CC0003CAD77 /* TravelViewController.h */,
+				B60989701F612CC0003CAD77 /* TravelViewController.m */,
+			);
+			path = "出游";
+			sourceTree = "<group>";
+		};
+		B6B6902D1F612B0200C22923 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				B60989691F612C76003CAD77 /* HomeViewController.h */,
+				B609896A1F612C76003CAD77 /* HomeViewController.m */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		B6B6902E1F612B0200C22923 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				B60989751F612CFD003CAD77 /* OwnViewController.h */,
+				B60989761F612CFD003CAD77 /* OwnViewController.m */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		B6B6902F1F612B0200C22923 /* 租车 */ = {
+			isa = PBXGroup;
+			children = (
+				B60989721F612CE8003CAD77 /* RentalCarViewController.h */,
+				B60989731F612CE8003CAD77 /* RentalCarViewController.m */,
+			);
+			path = "租车";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6B68FB41F6127DA00C22923 /* IOS-LY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6B68FE21F6127DA00C22923 /* Build configuration list for PBXNativeTarget "IOS-LY" */;
+			buildPhases = (
+				33ADFDF1A518F15E7566807D /* [CP] Check Pods Manifest.lock */,
+				B6B68FB11F6127DA00C22923 /* Sources */,
+				B6B68FB21F6127DA00C22923 /* Frameworks */,
+				B6B68FB31F6127DA00C22923 /* Resources */,
+				090337CDA4494B32FE9DFC73 /* [CP] Embed Pods Frameworks */,
+				1D881FA16EDE1F30E9EE02F0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IOS-LY";
+			productName = "IOS-LY";
+			productReference = B6B68FB51F6127DA00C22923 /* IOS-LY.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6B68FCD1F6127DA00C22923 /* IOS-LYTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6B68FE51F6127DA00C22923 /* Build configuration list for PBXNativeTarget "IOS-LYTests" */;
+			buildPhases = (
+				B6B68FCA1F6127DA00C22923 /* Sources */,
+				B6B68FCB1F6127DA00C22923 /* Frameworks */,
+				B6B68FCC1F6127DA00C22923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6B68FD01F6127DA00C22923 /* PBXTargetDependency */,
+			);
+			name = "IOS-LYTests";
+			productName = "IOS-LYTests";
+			productReference = B6B68FCE1F6127DA00C22923 /* IOS-LYTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6B68FD81F6127DA00C22923 /* IOS-LYUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6B68FE81F6127DA00C22923 /* Build configuration list for PBXNativeTarget "IOS-LYUITests" */;
+			buildPhases = (
+				B6B68FD51F6127DA00C22923 /* Sources */,
+				B6B68FD61F6127DA00C22923 /* Frameworks */,
+				B6B68FD71F6127DA00C22923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6B68FDB1F6127DA00C22923 /* PBXTargetDependency */,
+			);
+			name = "IOS-LYUITests";
+			productName = "IOS-LYUITests";
+			productReference = B6B68FD91F6127DA00C22923 /* IOS-LYUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6B68FAD1F6127DA00C22923 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = XYJ;
+				TargetAttributes = {
+					B6B68FB41F6127DA00C22923 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TC4364SXLP;
+						ProvisioningStyle = Automatic;
+					};
+					B6B68FCD1F6127DA00C22923 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LY7F59PHE8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B6B68FB41F6127DA00C22923;
+					};
+					B6B68FD81F6127DA00C22923 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LY7F59PHE8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B6B68FB41F6127DA00C22923;
+					};
+				};
+			};
+			buildConfigurationList = B6B68FB01F6127DA00C22923 /* Build configuration list for PBXProject "IOS-LY" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6B68FAC1F6127DA00C22923;
+			productRefGroup = B6B68FB61F6127DA00C22923 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6B68FB41F6127DA00C22923 /* IOS-LY */,
+				B6B68FCD1F6127DA00C22923 /* IOS-LYTests */,
+				B6B68FD81F6127DA00C22923 /* IOS-LYUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6B68FB31F6127DA00C22923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B68FC81F6127DA00C22923 /* LaunchScreen.storyboard in Resources */,
+				B6B68FC51F6127DA00C22923 /* Assets.xcassets in Resources */,
+				B6B68FC31F6127DA00C22923 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B68FCC1F6127DA00C22923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B68FD71F6127DA00C22923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		090337CDA4494B32FE9DFC73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOS-LY/Pods-IOS-LY-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D881FA16EDE1F30E9EE02F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOS-LY/Pods-IOS-LY-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33ADFDF1A518F15E7566807D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6B68FB11F6127DA00C22923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B68FC01F6127DA00C22923 /* ViewController.m in Sources */,
+				B6B68FFB1F61286300C22923 /* MainManage.m in Sources */,
+				B6B68FFA1F61286300C22923 /* LYTabBarController.m in Sources */,
+				B60989771F612CFD003CAD77 /* OwnViewController.m in Sources */,
+				B60989741F612CE8003CAD77 /* RentalCarViewController.m in Sources */,
+				B609896B1F612C76003CAD77 /* HomeViewController.m in Sources */,
+				B60989711F612CC0003CAD77 /* TravelViewController.m in Sources */,
+				B6B68FF81F61286300C22923 /* BackBtn.m in Sources */,
+				B6B68FBD1F6127DA00C22923 /* AppDelegate.m in Sources */,
+				B6B68FBA1F6127DA00C22923 /* main.m in Sources */,
+				B6B68FFD1F61286300C22923 /* TabBarTool.m in Sources */,
+				B6B68FF91F61286300C22923 /* LYNavigationController.m in Sources */,
+				B6B68FFC1F61286300C22923 /* MyTabBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B68FCA1F6127DA00C22923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B68FD31F6127DA00C22923 /* IOS_LYTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B68FD51F6127DA00C22923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B68FDE1F6127DA00C22923 /* IOS_LYUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6B68FD01F6127DA00C22923 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6B68FB41F6127DA00C22923 /* IOS-LY */;
+			targetProxy = B6B68FCF1F6127DA00C22923 /* PBXContainerItemProxy */;
+		};
+		B6B68FDB1F6127DA00C22923 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6B68FB41F6127DA00C22923 /* IOS-LY */;
+			targetProxy = B6B68FDA1F6127DA00C22923 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6B68FC11F6127DA00C22923 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6B68FC21F6127DA00C22923 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6B68FC61F6127DA00C22923 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6B68FC71F6127DA00C22923 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6B68FE01F6127DA00C22923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6B68FE11F6127DA00C22923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6B68FE31F6127DA00C22923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F682BBC4FA45302BD2472D5 /* Pods-IOS-LY.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TC4364SXLP;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				INFOPLIST_FILE = "IOS-LY/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyj.LY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6B68FE41F6127DA00C22923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F500F9A6D3FB034D470B583 /* Pods-IOS-LY.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TC4364SXLP;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				INFOPLIST_FILE = "IOS-LY/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyj.LY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B6B68FE61F6127DA00C22923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LY7F59PHE8;
+				INFOPLIST_FILE = "IOS-LYTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XYJ.IOS-LYTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS-LY.app/IOS-LY";
+			};
+			name = Debug;
+		};
+		B6B68FE71F6127DA00C22923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LY7F59PHE8;
+				INFOPLIST_FILE = "IOS-LYTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XYJ.IOS-LYTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS-LY.app/IOS-LY";
+			};
+			name = Release;
+		};
+		B6B68FE91F6127DA00C22923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LY7F59PHE8;
+				INFOPLIST_FILE = "IOS-LYUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XYJ.IOS-LYUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "IOS-LY";
+			};
+			name = Debug;
+		};
+		B6B68FEA1F6127DA00C22923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LY7F59PHE8;
+				INFOPLIST_FILE = "IOS-LYUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XYJ.IOS-LYUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "IOS-LY";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6B68FB01F6127DA00C22923 /* Build configuration list for PBXProject "IOS-LY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B68FE01F6127DA00C22923 /* Debug */,
+				B6B68FE11F6127DA00C22923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6B68FE21F6127DA00C22923 /* Build configuration list for PBXNativeTarget "IOS-LY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B68FE31F6127DA00C22923 /* Debug */,
+				B6B68FE41F6127DA00C22923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6B68FE51F6127DA00C22923 /* Build configuration list for PBXNativeTarget "IOS-LYTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B68FE61F6127DA00C22923 /* Debug */,
+				B6B68FE71F6127DA00C22923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6B68FE81F6127DA00C22923 /* Build configuration list for PBXNativeTarget "IOS-LYUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B68FE91F6127DA00C22923 /* Debug */,
+				B6B68FEA1F6127DA00C22923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6B68FAD1F6127DA00C22923 /* Project object */;
+}
