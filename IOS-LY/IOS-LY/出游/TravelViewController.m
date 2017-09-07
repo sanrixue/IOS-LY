@@ -25,7 +25,6 @@
         
         self.tabBarItem=[TabBarTool itemWithTitle:self.title andNormalImg:@"YS_index_nor" andSelectedImg:@"YS_index_sel"];
         
-        
         self.view.backgroundColor=[UIColor whiteColor];
         
         UIImageView *titleImage = [[UIImageView alloc] init];
