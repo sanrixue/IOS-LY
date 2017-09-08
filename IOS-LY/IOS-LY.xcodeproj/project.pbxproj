@@ -14,7 +14,6 @@
 		B60989771F612CFD003CAD77 /* OwnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60989761F612CFD003CAD77 /* OwnViewController.m */; };
 		B6B68FBA1F6127DA00C22923 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B68FB91F6127DA00C22923 /* main.m */; };
 		B6B68FBD1F6127DA00C22923 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B68FBC1F6127DA00C22923 /* AppDelegate.m */; };
-		B6B68FC01F6127DA00C22923 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B68FBF1F6127DA00C22923 /* ViewController.m */; };
 		B6B68FC31F6127DA00C22923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B68FC11F6127DA00C22923 /* Main.storyboard */; };
 		B6B68FC51F6127DA00C22923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B68FC41F6127DA00C22923 /* Assets.xcassets */; };
 		B6B68FC81F6127DA00C22923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B68FC61F6127DA00C22923 /* LaunchScreen.storyboard */; };
@@ -57,13 +56,12 @@
 		B60989731F612CE8003CAD77 /* RentalCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RentalCarViewController.m; sourceTree = "<group>"; };
 		B60989751F612CFD003CAD77 /* OwnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OwnViewController.h; sourceTree = "<group>"; };
 		B60989761F612CFD003CAD77 /* OwnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OwnViewController.m; sourceTree = "<group>"; };
-		B60989781F612F94003CAD77 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B60989781F612F94003CAD77 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		B60989811F623B75003CAD77 /* LYConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYConstant.h; sourceTree = "<group>"; };
 		B6B68FB51F6127DA00C22923 /* IOS-LY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS-LY.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6B68FB91F6127DA00C22923 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B6B68FBB1F6127DA00C22923 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B6B68FBC1F6127DA00C22923 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B6B68FBE1F6127DA00C22923 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B6B68FBF1F6127DA00C22923 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6B68FBB1F6127DA00C22923 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "IOS-LY/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		B6B68FBC1F6127DA00C22923 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "IOS-LY/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
 		B6B68FC21F6127DA00C22923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6B68FC41F6127DA00C22923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6B68FC71F6127DA00C22923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -131,10 +129,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B609897D1F622C5B003CAD77 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		B609897E1F622C73003CAD77 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B6B68FBB1F6127DA00C22923 /* AppDelegate.h */,
+				B6B68FBC1F6127DA00C22923 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
 		B6B68FAC1F6127DA00C22923 = {
 			isa = PBXGroup;
 			children = (
-				B60989781F612F94003CAD77 /* PrefixHeader.pch */,
 				B6B68FB71F6127DA00C22923 /* IOS-LY */,
 				B6B68FD11F6127DA00C22923 /* IOS-LYTests */,
 				B6B68FDC1F6127DA00C22923 /* IOS-LYUITests */,
@@ -157,19 +170,16 @@
 		B6B68FB71F6127DA00C22923 /* IOS-LY */ = {
 			isa = PBXGroup;
 			children = (
+				B6B6902F1F612B0200C22923 /* 租车 */,
+				B609897E1F622C73003CAD77 /* AppDelegate */,
+				B609897D1F622C5B003CAD77 /* Macros */,
 				B6B6902C1F612B0200C22923 /* 出游 */,
 				B6B6902D1F612B0200C22923 /* 首页 */,
 				B6B6902E1F612B0200C22923 /* 我的 */,
-				B6B6902F1F612B0200C22923 /* 租车 */,
 				B6B68FEB1F61286300C22923 /* Navigation and TabBar */,
-				B6B68FBB1F6127DA00C22923 /* AppDelegate.h */,
-				B6B68FBC1F6127DA00C22923 /* AppDelegate.m */,
-				B6B68FBE1F6127DA00C22923 /* ViewController.h */,
-				B6B68FBF1F6127DA00C22923 /* ViewController.m */,
 				B6B68FC11F6127DA00C22923 /* Main.storyboard */,
 				B6B68FC41F6127DA00C22923 /* Assets.xcassets */,
 				B6B68FC61F6127DA00C22923 /* LaunchScreen.storyboard */,
-				B6B68FC91F6127DA00C22923 /* Info.plist */,
 				B6B68FB81F6127DA00C22923 /* Supporting Files */,
 			);
 			path = "IOS-LY";
@@ -178,6 +188,9 @@
 		B6B68FB81F6127DA00C22923 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B60989811F623B75003CAD77 /* LYConstant.h */,
+				B6B68FC91F6127DA00C22923 /* Info.plist */,
+				B60989781F612F94003CAD77 /* PrefixHeader.pch */,
 				B6B68FB91F6127DA00C22923 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -443,7 +456,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6B68FC01F6127DA00C22923 /* ViewController.m in Sources */,
 				B6B68FFB1F61286300C22923 /* MainManage.m in Sources */,
 				B6B68FFA1F61286300C22923 /* LYTabBarController.m in Sources */,
 				B60989771F612CFD003CAD77 /* OwnViewController.m in Sources */,

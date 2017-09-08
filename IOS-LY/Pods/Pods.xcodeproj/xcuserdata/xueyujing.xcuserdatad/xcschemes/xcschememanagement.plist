@@ -4,6 +4,31 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>DCScrollView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>IQKeyboardManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MagicalRecord.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Masonry.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -14,7 +39,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>RealReachability.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SVProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YYKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +62,57 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>03630D2E963CA95D45C77B63F4720640</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>11DF03F99129A89DF14388E787ECC160</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2C137FB2B9F0BC50147CEC38926A659F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>417EA9844EC286C5B1B8FCB029C00130</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4771750F82C535201AA1A7089F408254</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>586F2DFA9BDCC6675C2546793A69E5CC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>75CD238160F1DC2B1102EB0679D2C9E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>904F4F27FD314010A3812EB2A9306183</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>9DC8D9E02903E93BD0B2FEC9D846EA20</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A181F757191B116B4B7D537784FC47E3</key>
+		<key>9E033EDB5EC0819481B0546434FA577B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AC19E714A6A574A06187CD365CBA4FF7</key>
+		<key>F8E2395BC7D4EA566101EB2962BE0494</key>
 		<dict>
 			<key>primary</key>
 			<true/>

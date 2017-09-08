@@ -9,11 +9,19 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
-#pragma mark - Navigation and TabBar
+#pragma mark - Navigation and TabBar  底部导航
 #import "TabBarTool.h"
+
+#pragma mark - 自定义类库
+#import "LYConstant.h"
+
 
 #pragma mark - 第三方库
 #import <Masonry/Masonry.h>
+#import <SDWebImage/UIButton+WebCache.h>
+#import "UIImageView+WebCache.h"
+#import <YYKit/YYKit.h>
+#import <AFNetworking/AFNetworking.h>
 
 
 #endif /* PrefixHeader_pch */

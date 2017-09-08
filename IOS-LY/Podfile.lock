@@ -1,17 +1,63 @@
 PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - DCScrollView (1.2.0)
+  - IQKeyboardManager (4.0.11)
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
   - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - RealReachability (1.1.9):
+    - RealReachability/Connection (= 1.1.9)
+    - RealReachability/Ping (= 1.1.9)
+  - RealReachability/Connection (1.1.9)
+  - RealReachability/Ping (1.1.9)
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
+  - SVProgressHUD (2.1.2)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - DCScrollView (~> 1.2.0)
+  - IQKeyboardManager (~> 4.0.8)
+  - MagicalRecord (~> 2.3.2)
   - Masonry (~> 1.0.2)
+  - MBProgressHUD (~> 1.0.0)
+  - RealReachability (~> 1.1.8)
   - SDWebImage (~> 4.0.0)
+  - SVProgressHUD (~> 2.1.2)
+  - YYKit (~> 1.0.9)
 
 SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  DCScrollView: ee5c564b281aa03acb5b7b78d6cc84cf52e68fee
+  IQKeyboardManager: 83eae5318483a34eb2069ef413d195b97605232e
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  RealReachability: a8c483900986a0f3305733961effbfbb00637a02
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: b677cf8c52519038595679557c14841b07b9a28f
+PODFILE CHECKSUM: a66da4906180fd5ac5f7399cd18f00cc5512b7db
 
 COCOAPODS: 1.2.0

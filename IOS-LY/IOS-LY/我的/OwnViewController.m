@@ -19,14 +19,13 @@
     self=[super init];
     if(self)
     {
-        self.title=@"首页";
+        self.title=@"我的";
         
-        self.navigationItem.title=@"首页";
+        self.navigationItem.title=@"我的";
         
         self.tabBarItem=[TabBarTool itemWithTitle:self.title andNormalImg:@"YS_index_nor" andSelectedImg:@"YS_index_sel"];
-        
-        
-        self.view.backgroundColor=[UIColor whiteColor];
+
+        self.view.backgroundColor=[UIColor colorWithHexString:@"00f0f0"];
         
         UIImageView *titleImage = [[UIImageView alloc] init];
         titleImage.frame = CGRectMake(20, 20, 100, 44);
@@ -40,6 +39,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

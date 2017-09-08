@@ -25,14 +25,11 @@
         
         self.tabBarItem=[TabBarTool itemWithTitle:self.title andNormalImg:@"YS_index_nor" andSelectedImg:@"YS_index_sel"];
         
-        
         self.view.backgroundColor=[UIColor whiteColor];
-        
         UIImageView *titleImage = [[UIImageView alloc] init];
         titleImage.frame = CGRectMake(20, 20, 100, 44);
         titleImage.image = [UIImage imageNamed:@"royal"];
         self.navigationItem.titleView = titleImage;
-        
     }
     return   self;
 }
