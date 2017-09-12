@@ -22,6 +22,6 @@
 #import "UIImageView+WebCache.h"
 #import <YYKit/YYKit.h>
 #import <AFNetworking/AFNetworking.h>
-
+#import <Bugly/Bugly.h>
 
 #endif /* PrefixHeader_pch */

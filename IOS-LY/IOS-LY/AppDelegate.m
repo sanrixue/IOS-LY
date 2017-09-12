@@ -23,6 +23,8 @@
 
     self.window.rootViewController=[[MainManage  shared] mainViewController];
 
+    [Bugly startWithAppId:@"afd6a5d529"];
+    
     
     return YES;
 }

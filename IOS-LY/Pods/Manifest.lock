@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - Bugly (2.4.8)
   - DCScrollView (1.2.0)
   - IQKeyboardManager (4.0.11)
   - MagicalRecord (2.3.2):
@@ -36,6 +37,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
+  - Bugly
   - DCScrollView (~> 1.2.0)
   - IQKeyboardManager (~> 4.0.8)
   - MagicalRecord (~> 2.3.2)
@@ -48,6 +50,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Bugly: da3c02408c14838d498429320545a8e439392978
   DCScrollView: ee5c564b281aa03acb5b7b78d6cc84cf52e68fee
   IQKeyboardManager: 83eae5318483a34eb2069ef413d195b97605232e
   MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
@@ -58,6 +61,6 @@ SPEC CHECKSUMS:
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: a66da4906180fd5ac5f7399cd18f00cc5512b7db
+PODFILE CHECKSUM: 64fbcccf01b17791ec0b766d76aa2a5074290b84
 
 COCOAPODS: 1.2.0
