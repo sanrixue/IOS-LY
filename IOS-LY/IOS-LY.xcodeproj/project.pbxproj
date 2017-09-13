@@ -12,6 +12,8 @@
 		B60989711F612CC0003CAD77 /* TravelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60989701F612CC0003CAD77 /* TravelViewController.m */; };
 		B60989741F612CE8003CAD77 /* RentalCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60989731F612CE8003CAD77 /* RentalCarViewController.m */; };
 		B60989771F612CFD003CAD77 /* OwnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60989761F612CFD003CAD77 /* OwnViewController.m */; };
+		B657523D1F690AA0002CFBFC /* LYHttpRequestAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = B657523C1F690AA0002CFBFC /* LYHttpRequestAPI.m */; };
+		B65752401F690D32002CFBFC /* BaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B657523F1F690D32002CFBFC /* BaseRequest.m */; };
 		B6B68FBA1F6127DA00C22923 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B68FB91F6127DA00C22923 /* main.m */; };
 		B6B68FBD1F6127DA00C22923 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B68FBC1F6127DA00C22923 /* AppDelegate.m */; };
 		B6B68FC31F6127DA00C22923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B68FC11F6127DA00C22923 /* Main.storyboard */; };
@@ -56,8 +58,12 @@
 		B60989731F612CE8003CAD77 /* RentalCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RentalCarViewController.m; sourceTree = "<group>"; };
 		B60989751F612CFD003CAD77 /* OwnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OwnViewController.h; sourceTree = "<group>"; };
 		B60989761F612CFD003CAD77 /* OwnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OwnViewController.m; sourceTree = "<group>"; };
-		B60989781F612F94003CAD77 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
-		B60989811F623B75003CAD77 /* LYConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYConstant.h; sourceTree = "<group>"; };
+		B60989781F612F94003CAD77 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../../PrefixHeader.pch; sourceTree = "<group>"; };
+		B60989811F623B75003CAD77 /* LYConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LYConstant.h; path = ../LYConstant.h; sourceTree = "<group>"; };
+		B657523B1F690AA0002CFBFC /* LYHttpRequestAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYHttpRequestAPI.h; sourceTree = "<group>"; };
+		B657523C1F690AA0002CFBFC /* LYHttpRequestAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYHttpRequestAPI.m; sourceTree = "<group>"; };
+		B657523E1F690D32002CFBFC /* BaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRequest.h; sourceTree = "<group>"; };
+		B657523F1F690D32002CFBFC /* BaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRequest.m; sourceTree = "<group>"; };
 		B6B68FB51F6127DA00C22923 /* IOS-LY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS-LY.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6B68FB91F6127DA00C22923 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B6B68FBB1F6127DA00C22923 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "IOS-LY/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
@@ -132,6 +138,8 @@
 		B609897D1F622C5B003CAD77 /* Macros */ = {
 			isa = PBXGroup;
 			children = (
+				B60989781F612F94003CAD77 /* PrefixHeader.pch */,
+				B60989811F623B75003CAD77 /* LYConstant.h */,
 			);
 			path = Macros;
 			sourceTree = "<group>";
@@ -143,6 +151,17 @@
 				B6B68FBC1F6127DA00C22923 /* AppDelegate.m */,
 			);
 			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B65752371F690583002CFBFC /* HTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				B657523B1F690AA0002CFBFC /* LYHttpRequestAPI.h */,
+				B657523C1F690AA0002CFBFC /* LYHttpRequestAPI.m */,
+				B657523E1F690D32002CFBFC /* BaseRequest.h */,
+				B657523F1F690D32002CFBFC /* BaseRequest.m */,
+			);
+			path = HTTPRequest;
 			sourceTree = "<group>";
 		};
 		B6B68FAC1F6127DA00C22923 = {
@@ -170,6 +189,7 @@
 		B6B68FB71F6127DA00C22923 /* IOS-LY */ = {
 			isa = PBXGroup;
 			children = (
+				B65752371F690583002CFBFC /* HTTPRequest */,
 				B6B6902F1F612B0200C22923 /* 租车 */,
 				B609897E1F622C73003CAD77 /* AppDelegate */,
 				B609897D1F622C5B003CAD77 /* Macros */,
@@ -188,9 +208,7 @@
 		B6B68FB81F6127DA00C22923 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B60989811F623B75003CAD77 /* LYConstant.h */,
 				B6B68FC91F6127DA00C22923 /* Info.plist */,
-				B60989781F612F94003CAD77 /* PrefixHeader.pch */,
 				B6B68FB91F6127DA00C22923 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -460,6 +478,7 @@
 				B6B68FFA1F61286300C22923 /* LYTabBarController.m in Sources */,
 				B60989771F612CFD003CAD77 /* OwnViewController.m in Sources */,
 				B60989741F612CE8003CAD77 /* RentalCarViewController.m in Sources */,
+				B65752401F690D32002CFBFC /* BaseRequest.m in Sources */,
 				B609896B1F612C76003CAD77 /* HomeViewController.m in Sources */,
 				B60989711F612CC0003CAD77 /* TravelViewController.m in Sources */,
 				B6B68FF81F61286300C22923 /* BackBtn.m in Sources */,
@@ -468,6 +487,7 @@
 				B6B68FFD1F61286300C22923 /* TabBarTool.m in Sources */,
 				B6B68FF91F61286300C22923 /* LYNavigationController.m in Sources */,
 				B6B68FFC1F61286300C22923 /* MyTabBar.m in Sources */,
+				B657523D1F690AA0002CFBFC /* LYHttpRequestAPI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

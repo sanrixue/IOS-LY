@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Category.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>DCScrollView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -20,6 +25,11 @@
 			<false/>
 		</dict>
 		<key>MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MJExtension.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -67,12 +77,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>11DF03F99129A89DF14388E787ECC160</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>2C137FB2B9F0BC50147CEC38926A659F</key>
+		<key>058117FEFEC2445E6EF74722B0704DEF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -82,17 +87,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4771750F82C535201AA1A7089F408254</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>586F2DFA9BDCC6675C2546793A69E5CC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>75CD238160F1DC2B1102EB0679D2C9E0</key>
+		<key>71EA9A0F4BF9A5DA8271BE39F52C166D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8D40B43FED2CD541C1A7932CA714CEC5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -112,7 +117,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F8E2395BC7D4EA566101EB2962BE0494</key>
+		<key>A316B54C67E947D23CECD230FA5BFAEF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B589654970E71D6BF7A3C8C460E7A219</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D164A2862CE50D9236F4444D31F2ECE3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F01EC085DF0EA3BA3C1C4ED19356542D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
