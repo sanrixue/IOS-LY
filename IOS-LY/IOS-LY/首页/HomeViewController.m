@@ -7,7 +7,8 @@
 //
 
 #import "HomeViewController.h"
-
+#import "LYHttpRequestAPI.h"
+#import "Result.h"
 @interface HomeViewController ()
 
 @end
@@ -41,6 +42,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [LYHttpRequestAPI ly_getNoticeWarningInfoWithId:@"1661" finish:^(BOOL success, id model, NSString *jsonObjc,NSArray *data) {
+
+//     Result *a=[Result modelObjectWithDictionary:data[0]];
+//        
+//     NSLog(@"+++%@",a.aname);
+        
+        
+        
+        
+        
+    }];
     
 }
 

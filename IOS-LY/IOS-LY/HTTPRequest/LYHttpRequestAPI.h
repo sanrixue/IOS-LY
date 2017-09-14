@@ -7,22 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-typedef void(^LYHttpRequestBlock)( BOOL success, id model, NSString* jsonObjc);
+typedef void(^LYHttpRequestBlock)( BOOL success, id model, NSString* jsonObjc,NSArray *data);
 
 #define defaultLimit @"15"
 
 @interface LYHttpRequestAPI : NSObject
-/**
- 获取消息警告列表接口
 
- @param types @[1,2,3,4]自由组合
- @param page page description
- @param finish finish description
- */
-//+ (void)yh_getNoticeWarningListWithTypes:(NSArray<NSString*>*)types
-//                                    page:(NSInteger)page
-//                                   finish:(YHHttpRequestBlock)finish;
++(void)ly_getNoticeWarningInfoWithId:(NSString *)notice_id finish:(LYHttpRequestBlock)finish;
+
 
 
 @end

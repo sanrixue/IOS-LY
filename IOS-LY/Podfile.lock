@@ -18,9 +18,13 @@ PODS:
   - Category (0.0.3)
   - DCScrollView (1.2.0)
   - IQKeyboardManager (4.0.11)
+  - JSONModel (1.7.0)
   - MagicalRecord (2.3.2):
     - MagicalRecord/Core (= 2.3.2)
   - MagicalRecord/Core (2.3.2)
+  - Mantle (2.1.0):
+    - Mantle/extobjc (= 2.1.0)
+  - Mantle/extobjc (2.1.0)
   - Masonry (1.0.2)
   - MBProgressHUD (1.0.0)
   - MJExtension (3.0.13)
@@ -43,7 +47,9 @@ DEPENDENCIES:
   - Category (~> 0.0.3)
   - DCScrollView (~> 1.2.0)
   - IQKeyboardManager (~> 4.0.8)
+  - JSONModel (~> 1.7.0)
   - MagicalRecord (~> 2.3.2)
+  - Mantle (~> 2.1.0)
   - Masonry (~> 1.0.2)
   - MBProgressHUD (~> 1.0.0)
   - MJExtension (~> 3.0.13)
@@ -58,7 +64,9 @@ SPEC CHECKSUMS:
   Category: b30ab3bc89d2823702114bedd805846925d81e3c
   DCScrollView: ee5c564b281aa03acb5b7b78d6cc84cf52e68fee
   IQKeyboardManager: 83eae5318483a34eb2069ef413d195b97605232e
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
   MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
@@ -67,6 +75,6 @@ SPEC CHECKSUMS:
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: f04380b7801560e6040daa95d5f6bf81dc0b787c
+PODFILE CHECKSUM: 52b1a266c677561219e3698fb7b22aab20c7c21e
 
 COCOAPODS: 1.2.0
