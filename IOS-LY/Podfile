@@ -20,5 +20,8 @@ pod 'Category', '~> 0.0.3'
 pod 'MJExtension', '~> 3.0.13'
 pod 'MagicalRecord', '~> 2.3.2'
 pod 'Mantle', '~> 2.1.0'
+pod 'AMap2DMap-NO-IDFA'
+pod 'AMapLocation-NO-IDFA'
+
 
 end

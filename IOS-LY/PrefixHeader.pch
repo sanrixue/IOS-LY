@@ -11,6 +11,7 @@
 
 #pragma mark - Navigation and TabBar  底部导航
 #import "TabBarTool.h"
+#import "PrivateConstants.h"
 
 #pragma mark - 自定义类库
 #import "LYConstant.h"
@@ -33,5 +34,6 @@
 #import <RealReachability/RealReachability.h>
 #import <SVProgressHUD/SVProgressHUD.h>
 #import <Mantle/Mantle.h>
+#import <AMapFoundationKit/AMapFoundationKit.h>
 
 #endif /* PrefixHeader_pch */

@@ -25,6 +25,7 @@
 
     [Bugly startWithAppId:@"afd6a5d529"];
     
+    [AMapServices sharedServices].apiKey=kGAODEMAP;
     
     return YES;
 }

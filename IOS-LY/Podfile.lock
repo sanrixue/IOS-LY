@@ -14,6 +14,11 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - AMap2DMap-NO-IDFA (4.6.0):
+    - AMapFoundation-NO-IDFA (~> 1.3)
+  - AMapFoundation-NO-IDFA (1.4.0)
+  - AMapLocation-NO-IDFA (2.4.0):
+    - AMapFoundation-NO-IDFA (~> 1.4)
   - Bugly (2.4.8)
   - Category (0.0.3)
   - DCScrollView (1.2.0)
@@ -43,6 +48,8 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
+  - AMap2DMap-NO-IDFA
+  - AMapLocation-NO-IDFA
   - Bugly
   - Category (~> 0.0.3)
   - DCScrollView (~> 1.2.0)
@@ -60,6 +67,9 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AMap2DMap-NO-IDFA: 01c80e7e93568617b1b1b452cfec71f974f5bc8a
+  AMapFoundation-NO-IDFA: d1ba541a56737c2048115a745b1dfcbe9901c248
+  AMapLocation-NO-IDFA: 9493012d3241a7d551942c7c1e1069b51f295083
   Bugly: da3c02408c14838d498429320545a8e439392978
   Category: b30ab3bc89d2823702114bedd805846925d81e3c
   DCScrollView: ee5c564b281aa03acb5b7b78d6cc84cf52e68fee
@@ -75,6 +85,6 @@ SPEC CHECKSUMS:
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 52b1a266c677561219e3698fb7b22aab20c7c21e
+PODFILE CHECKSUM: c5a2fffb9bc4a2048ed65f4e6ede4aa0c46bb896
 
 COCOAPODS: 1.2.0

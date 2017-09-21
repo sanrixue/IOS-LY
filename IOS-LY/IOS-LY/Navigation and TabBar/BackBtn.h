@@ -12,11 +12,8 @@
 
 @property(nonatomic,strong)UIImage *backImage;
 @property(nonatomic,strong)UINavigationController *navigationController;
-
-
+    
 -(instancetype)initWithFrame:(CGRect)frame andNavigationController:(UINavigationController*)NaviController;
-
 -(instancetype)initWithNavigationController:(UINavigationController*)NaviController andView:(UIView*)view;
-
 
 @end
